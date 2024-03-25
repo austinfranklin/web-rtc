@@ -38,7 +38,7 @@
 
 // set up an asynchronous communication channel that will be
 // used during the peer connection setup
-const signalingChannel = new SignalingChannel(remoteClientId);
+const signalingChannel = new SignalingChannel('1234567890');
 signalingChannel.addEventListener('message', message => {
     // new message from remote client received
 });
